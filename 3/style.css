@@ -68,3 +68,17 @@ a:hover {
   font-weight: lighter;
   text-decoration: none;
 }
+
+.feature {
+  border: 12px solid #FFC0CB;
+  margin: 15px;
+  padding: 15px 0;
+  text-align: center;
+  width: 400px;
+ background: #00FFFF ;}
+
+ #apropos{
+  border: 12px solid #FFC0CB;
+  margin: 0 auto;
+  width: 80%;
+}
