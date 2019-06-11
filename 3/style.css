@@ -14,6 +14,16 @@ nav{
   font-family: 'Source Sans Pro', sans-serif;
 } 
 
+nav li {
+  margin: 10px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
+}
+
 h1{
   font-family: 'Roboto', sans-serif;
   color:  #41A3C0; 
@@ -45,6 +55,8 @@ a:hover {
   color: rgb(225, 0, 152);
   font-size: 35px;
   font-family: 'ZCOOL KuaiLe', cursive;
+  float: left;
+  margin-left: 50px;
 }
 
 /* Mis en forme de la baseline */
@@ -69,16 +81,25 @@ a:hover {
   text-decoration: none;
 }
 
+#baseline a:hover {
+  position: relative;
+  top:3px;
+}
+
 .feature {
   border: 12px solid #FFC0CB;
   margin: 15px;
   padding: 15px 0;
   text-align: center;
   width: 400px;
- background: #00FFFF ;}
+  background: #00FFFF ;
+}
 
  #apropos{
   border: 12px solid #FFC0CB;
   margin: 0 auto;
   width: 80%;
+  display:flex; 
+  flex-wrap: wrap;
+  justify-content: center;
 }
