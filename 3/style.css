@@ -103,3 +103,7 @@ a:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.red{
+  color: red
+}
