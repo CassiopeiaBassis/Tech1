@@ -1,10 +1,17 @@
 $(document).ready(function() {
-	alert("Bienvenue");
+	monTexte="HELLO" 
+	monTexte2="HELLO2"
+	$("p").html(monTexte); 
+
+
 	$( "p" ).on("click",function() {
-    	if($("p").hasClass('red')){
-    		$("p").removeClass('red');
+    	if($( this ).hasClass('red')){
+    		$( this ).html(monTexte);
     	}else{
-    		$("p").addClass('red');
+    		$( this ).addClass('red');
+    		$( this ).html(monTexte2);
     	}
+
+    	$(this).html("HELLO"); 
   	});
 });
